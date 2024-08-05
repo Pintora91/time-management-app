@@ -59,6 +59,36 @@ section {
     margin-top: 20px;
 }
 
-#task-list {
+#task-list, #tasks-container {
     margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-item button {
+    margin-left: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    background-color: #d32f2f;
+}
+
+#analytics-content {
+    margin-top: 20px;
+}
+
+.settings-form label {
+    margin-right: 10px;
 }
