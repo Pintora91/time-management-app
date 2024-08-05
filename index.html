@@ -19,13 +19,19 @@
     </header>
 
     <main>
-        <section id="dashboard" class="hidden">
+        <section id="dashboard">
             <h1>Dashboard</h1>
             <div id="task-list"></div>
             <form id="task-form">
                 <input type="text" id="task-name" placeholder="New task" required>
                 <button type="submit">Add Task</button>
             </form>
+            <div id="timer">
+                <h2>Task Timer</h2>
+                <button id="start-timer">Start</button>
+                <button id="stop-timer">Stop</button>
+                <div id="timer-display">00:00:00</div>
+            </div>
         </section>
 
         <section id="tasks" class="hidden">
